@@ -19,11 +19,12 @@ Save and Document Results Capture screenshots of the waveform and save the simul
 # Moore 1011
 
 <img width="144" height="300" alt="image" src="https://github.com/user-attachments/assets/ec255e61-3c47-4a62-8505-38e12efd2e6c" />
+
 # Code
 # Moore 1011
 # Verilog Code
 
-
+```
 module moore_2(clk,rst,in,out);
 input clk,in,rst;
 output reg out;
