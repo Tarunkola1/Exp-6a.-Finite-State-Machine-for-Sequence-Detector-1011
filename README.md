@@ -23,7 +23,6 @@ Save and Document Results Capture screenshots of the waveform and save the simul
 # Code
 # Moore 1011
 # Verilog Code
-
 ```
 module moore_2(clk,rst,in,out);
 input clk,in,rst;
@@ -76,9 +75,9 @@ always @(current_state,in)begin
         endcase
         end
 endmodule
-
+```
 # Test Bench
-
+```
 module moore_2_tb;
 reg clk,rst,in;
 wire out;
@@ -100,15 +99,10 @@ in=0;
 #10 $finish;
 end
 endmodule
-
+```
 # Output Waveform
 
 <img width="1920" height="1200" alt="Screenshot 2025-10-17 112325" src="https://github.com/user-attachments/assets/93e8f324-1363-4e33-84db-ca73651373ee" />
 
 # Conclusion
-The Mealy and Moore state machine for sequence 1011 was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the sequence operations and observing the output waveforms.
-
-
-
-Conclusion
-The Mealy and Moore state machine for sequence 1011 was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the sequence operations and observing the output waveforms.
+The Moore state machine for sequence 1011 was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the sequence operations and observing the output waveforms.
